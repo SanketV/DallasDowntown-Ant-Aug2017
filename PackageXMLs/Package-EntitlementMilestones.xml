@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">  
+    <types>
+        <members>retirement plans for production_v14</members>
+        <members>acats for production_v3</members>
+        <members>reorganization for production_v2</members>
+        <members>dividends for production_v2</members>
+        <members>p&amp;s for production_v1</members>
+        <members>secmaster&#047;pricing for production_v2</members>
+        <members>r&amp;d&#047;money markets for production_v3</members>
+        <members>proxy&#047;prospectus for production_v2</members>
+        <members>margin cashiering for production_v2</members>
+        <members>mutual funds operations for production_v6</members>
+        <members>htin new accounts for production_v3</members>
+        <members>new accounts for production_v2</members>
+        <members>government reporting&#047;cost basis for production_v2</members>
+        <members>stock transfer&#047;receipt for production_v1</members>
+        <members>clearing services for production_v1</members>
+        <members>htin client services for production_v9</members>
+        <members>standard response with mile&#047;entitlement criteria</members>
+        <members>immediate response with mile&#047;entitlement criteria</members>
+        <members>settlement ops for production_v1</members>
+        <name>EntitlementProcess</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>MilestoneType</name>
+    </types>
+    <!-- <types>
+    	<members>Case</members>
+    	<name>CustomObject</name>
+    </types>-->
+   <version>39.0</version>
+</Package>
