@@ -1,0 +1,7 @@
+  1. Insert Accounts with external Ids
+        Do not include child-parent relationship among Accounts.
+
+  2. Upsert child Accounts with external Ids, to establish a relationship with their parent accounts.
+
+  3. Export Contacts with Account's external Id, and contact record types
+        Replace record type names with the IDs in Excel
