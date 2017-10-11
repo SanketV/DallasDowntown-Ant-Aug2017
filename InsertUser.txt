@@ -1,0 +1,18 @@
+ User u = new User(
+            ProfileId = [SELECT Id FROM Profile WHERE Name = 'IT Security Admin'].Id,
+                              FirstName = 'Bruce',
+            LastName = 'Banner',
+            Email = 'bruce@banner.com',
+            Username = 'bruce@banner.com' + System.currentTimeMillis(),
+            CompanyName = 'Hilltop Securities',
+            Title = 'Security Supervisor',
+            Alias = 'hhts',
+            TimeZoneSidKey = 'America/Los_Angeles',
+            EmailEncodingKey = 'UTF-8',
+            LanguageLocaleKey = 'en_US',
+            LocaleSidKey = 'en_US',
+            //ContactId = '0035500000JA9GY',
+                              isActive = true
+        );
+ 
+INSERT U;
